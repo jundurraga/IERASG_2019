@@ -20,6 +20,7 @@ output:
      before_body: doc_prefix.html
      after_body: doc_suffix.html
    css: presentation.css
+   pandoc_args: ["--output=index.html"] 
 # bibliography: ./library.bib  
 ---
 
