@@ -42,7 +42,7 @@ This level is sufficient to give adequate intelligibility for listeners with nor
 ![](./figures/cocktail_party_effect.png){width=30%}
 
 ## Auditory scene analysis
-- A critial role of the auditory system is to parse the inputs from the left and right ears into auditory objects - auditory scene analysis. This is an essential role for survival, recognition, and communication.
+- A critical role of the auditory system is to parse the inputs from the left and right ears into auditory objects - auditory scene analysis. This is an essential role for survival, recognition, and communication.
 
 - Binaural hearing provides cues that allow us to estimate the relative number and location of sources and objects in the environment.
 
@@ -89,22 +89,22 @@ When listening to sounds, we rely on three mechanisms for both sound localizatio
 
 ![](./figures/itd_env_0_5.png)  ![](./figures/itd_env_2_0.png)
 
-### Why ITDs? {.fragment}
+Why ITDs?
 
->- Speech reception thresholds (SRTs) can improve up to 10 dB when sources are separated in space (Hawley et al., 2004).
+- Speech reception thresholds (SRTs) can improve up to 10 dB when sources are separated in space (Hawley et al., 2004).
 
->- Binaural hearing improves tolerance reverberationg enviroments (Harris and Reitz, 1985)
+- Binaural hearing improves tolerance in reverberating environments (Harris and Reitz, 1985)
 
->- Binaural hearing abilities decrease with advancing age  (Ross, 2008; 2007, Vercammen et al. 2018). 
+- Binaural hearing abilities decrease with advancing age  (Ross, 2008; 2007, Vercammen et al. 2018). 
 
 
-### What about long ITDs? {.fragment}
+What about long ITDs?
 
->- Longer ITDs become relevant in reverberation and for integration of multiple sources
+- Longer ITDs become relevant in reverberation and for integration of multiple sources
 
->- ITDs in the envelope of common amplitude modulation may become the cue for broadband noise stimuli with long ITD (beyond the range for sound localization)
+- ITDs in the envelope of common amplitude modulation may become the cue for broadband noise stimuli with long ITD (beyond the range for sound localization)
 
->- Robust lateralization has been shown for long ITD of up to 20 ms (only possible below 1500 Hz; (Mossop and Culling, 1998).
+- Robust lateralization has been shown for long ITD of up to 20 ms (only possible below 1500 Hz; (Mossop and Culling, 1998).
 
 
 
@@ -187,7 +187,6 @@ When listening to sounds, we rely on three mechanisms for both sound localizatio
 
 <!-- ## -->
 
-<!-- Input to one ear  -------------------> output at the auditory nerve -->
 
 <!-- ![](./figures/spectrogram_cheap.png){width=60%} ![](./figures/raster.png){width=35%} -->
 
@@ -208,33 +207,14 @@ The aims of this study are:
 - To infer the underlying mechanisms for ITD processing in human listeners.
 
 
-# Neurophysiological binaural processing in humans
+<!-- # Neurophysiological binaural processing in humans -->
 
-## Electroencephalogram (EEG)
+<!-- ## Electroencephalogram (EEG) -->
 
-![](./figures/Luck_2005_erp.png){width=50%}
-<img src="" width="60%">
+<!-- ![](./figures/Luck_2005_erp.png){width=50%} -->
+<!-- <img src="" width="60%"> -->
 
-(From Luck 2005)
-
-## Functional near-infrared spectroscopy (fNIRS)
-
-
-- Neuroimaging technique for measuring brain activity.
-- It sses light to measures the change in concentration of haemoglobin in blood: a proxy measure of total local neural activity (similar to fMRI).
-
-
-
-![](./figures/fnirs_diagram.png){width=20%} ![](./figures/oxygenated_deoxygenated_blood.jpg){width=20%} ![](./figures/fNIRS.jpeg){width=20%} ![](./figures/tipical_fNIR_bold_response.png){width=20%}
-
-
-- The brain needs oxigen to function. Blood carries oxygen to the brain as fuel for your neurons. 
- 
-- When a region of the brain requires more energy, additional oxygenated blood is pumped to the area.
-
-- As the brain uses oxygen, haemoglobin (carrying O2) gets de-oxygenated (it turns bluish). 
- 
-- fNIRs provides an estimation of oxygenated and de-oxygenated levels which is used as proxy measurement for brain activity.
+<!-- (From Luck 2005) -->
 
 
 # Experiments
@@ -247,7 +227,7 @@ The aims of this study are:
 
 - Binaural recordings were obtained from 10 NH participants.
 - 64 + 2 + 2 channels recording (amplifier: Biosemi ActiveTwo system).
-- Fs: 16 384 kHz / 24 bits (Lowpass: 3 kHz)
+- Fs: 16384 kHz / 24 bits (Low-pass: 3 kHz)
 - Denoising source separation (DSS)
 - Hottelling T2 test for individual analysis
  
@@ -259,13 +239,13 @@ Objective measures of binaural processing can be obtained by using stimuli where
 ![](./figures/stimulus_example.png){width=55%}
 
 
-- Simuli consisted of narrow-bandpass noise (300 - 700 Hz) at 75 dB SPL
+- Stimuli consisted of narrow-bandpass noise (300 - 700 Hz) at 75 dB SPL
 
 ## Methods
 
-- By swithcing the "sound image" from left to right at 6.7 Hz, a strong steady-state response is evoked at that particular frequency
+- By switching the "sound image" from left to right at 6.7 Hz, a strong steady-state response is evoked at that particular frequency
 
-- ITM-FRs are larger when the stimuli causes a strong lateralization percept.
+- ITMs: −0.5/ + 0.5 ms, −1.0/ + 1.0 ms, −1.5/ + 1.5 ms, −2.0/ + 2.0 ms, −2.5/ + 2.5 ms, −3.0/ + 3.0 ms, −4.0/ + 4.0 ms
 
 
 <ul class="fragment" data-fragment-index="1" style="text-align: center">
@@ -346,11 +326,32 @@ Objective measures of binaural processing can be obtained by using stimuli where
 - Significant effect of the ITM (F(7,56.4) = 6.6, p < 0.001).
 
 
-## FNIRs Experiments
+# FNIRs Experiment
+
+## Functional near-infrared spectroscopy (fNIRS)
+
+
+- Neuroimaging technique for measuring brain activity.
+- It uses light to measures the change in concentration of haemoglobin in blood: a proxy measure of total local neural activity (similar to fMRI).
+
+
+
+![](./figures/fnirs_diagram.png){width=20%} ![](./figures/oxygenated_deoxygenated_blood.jpg){width=20%} ![](./figures/fNIRS.jpeg){width=20%} ![](./figures/tipical_fNIR_bold_response.png){width=20%}
+
+
+- The brain needs oxygen to function. Blood carries oxygen to the brain as fuel for your neurons. 
+ 
+- When a region of the brain requires more energy, additional oxygenated blood is pumped to the area.
+
+- As the brain uses oxygen, haemoglobin (carrying O2) gets de-oxygenated (it turns bluish). 
+ 
+- fNIRs provides an estimation of oxygenated and de-oxygenated levels which is used as proxy measurement for brain activity.
+
+## Methods
 
 - 10 Participants
 - Same ITMs as in EEG: −0.5/ + 0.5 ms, −1.0/ + 1.0 ms, −1.5/ + 1.5 ms, −2.0/ + 2.0 ms, −2.5/ + 2.5 ms, −3.0/ + 3.0 ms, −4.0/ + 4.0 ms **(6.7 Hz)**
-- Simuli consisted of narrow-bandpass noise (300 - 700 Hz) at 75 dB SPL
+- Stimuli consisted of narrow-bandpass noise (300 - 700 Hz) at 75 dB SPL
 - fNIRs were elicited by presenting 25 trials of 6 seconds separated by 15-30 s of silence.
 - 16 LED light sources and 16 avalanche photo-diode light detectors (NIRScout, NIRX, Germany)
 - Fs: 7 Hz
