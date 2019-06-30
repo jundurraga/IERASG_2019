@@ -91,19 +91,15 @@ When listening to sounds, we rely on three mechanisms for both sound localizatio
 
 Why ITDs?
 
-- Speech reception thresholds (SRTs) can improve up to 10 dB when sources are separated in space (Hawley et al., 2004).
-
-- Binaural hearing improves tolerance in reverberating environments (Harris and Reitz, 1985)
-
-- Binaural hearing abilities decrease with advancing age  (Ross, 2008; 2007, Vercammen et al. 2018). 
+- Speech reception thresholds (SRTs) can **improve up to 10 dB** when sources are separated in space (Hawley et al., 2004).
+- Binaural hearing **improves tolerance in reverberating environments** (Harris and Reitz, 1985)
+- **Binaural hearing abilities decrease with advancing age**  (Ross, 2008; 2007, Vercammen et al. 2018). 
 
 
 What about long ITDs?
 
 - Longer ITDs become relevant in reverberation and for integration of multiple sources
-
 - ITDs in the envelope of common amplitude modulation may become the cue for broadband noise stimuli with long ITD (beyond the range for sound localization)
-
 - Robust lateralization has been shown for long ITD of up to 20 ms (only possible below 1500 Hz; (Mossop and Culling, 1998).
 
 
