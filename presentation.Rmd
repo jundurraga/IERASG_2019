@@ -198,7 +198,7 @@ What about long ITDs?
 
 The aims of this study are: 
 
-- To assess the neurophysiological basis for envelope encoding of low frequency sounds to sounds with ITDs within and outside the ethological range.
+- To assess the neurophysiological basis for envelope encoding of low frequency sounds with ITDs within and outside the ethological range.
 - To evaluate objective measurements of binaural processing using EEG and fNIRS. 
 - To infer the underlying mechanisms for ITD processing in human listeners.
 
