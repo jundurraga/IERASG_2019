@@ -89,21 +89,22 @@ When listening to sounds, we rely on three mechanisms for both sound localizatio
 
 ![](./figures/itd_env_0_5.png)  ![](./figures/itd_env_2_0.png)
 
-> - Why ITDs? 
+Why ITDs? 
 
-> + Speech reception thresholds (SRTs) can improve up to 10 dB when sources are separated in space (Hawley et al., 2004).
+>- Speech reception thresholds (SRTs) can improve up to 10 dB when sources are separated in space (Hawley et al., 2004).
 
-> + Binaural hearing improves tolerance reverberationg enviroments (Harris and Reitz, 1985)
+>- Binaural hearing improves tolerance reverberationg enviroments (Harris and Reitz, 1985)
 
-> + Binaural hearing abilities decrease with advancing age  (Ross, 2008; 2007, Vercammen et al. 2018). 
+>- Binaural hearing abilities decrease with advancing age  (Ross, 2008; 2007, Vercammen et al. 2018). 
 
-> - What about long ITDs? 
 
-> + Longer ITD becomes relevant in reverberation and for integration of multiple sources
+What about long ITDs? 
 
-> + ITD in the envelope of common amplitude modulation may become the cue for broadband noise stimuli with long ITD (beyond the range for sound localization)
+>- Longer ITD becomes relevant in reverberation and for integration of multiple sources
 
-> + Robust lateralization has been shown for long ITD of up to 20 ms (only possible below 1500 Hz; (Mossop and Culling, 1998).
+>- ITD in the envelope of common amplitude modulation may become the cue for broadband noise stimuli with long ITD (beyond the range for sound localization)
+
+>- Robust lateralization has been shown for long ITD of up to 20 ms (only possible below 1500 Hz; (Mossop and Culling, 1998).
 
 
 
@@ -198,102 +199,13 @@ Input to one ear  -------------------> output at the auditory nerve
 (Amunts, K. et al. 2012)
 
 
+## Aims
 
-<!-- ## ILD pathway -->
-<!-- ![](./figures/ild_pathway.svg){width=80%} -->
+The aims of this study are: 
 
-<!-- (Grothe et al. 2010) -->
-
-<!-- <li class="fragment" data-fragment-index="0"> -->
-<!-- The initial site of ILD processing is generally considered to be the LSO. -->
-<!-- </li> -->
-
-<!-- <li class="fragment" data-fragment-index="1"> -->
-<!-- LSO are innervated by direct excitatory ipsilateral inputs from spherical bushy cells and inhibitory inputs indirectly originating from the globular bushy cells. -->
-<!-- </li> -->
-
-<!-- ## ITD pathway -->
-
-<!-- ![](./figures/itd_pathway.svg){width=80%} -->
-
-<!-- (Grothe et al. 2010) -->
-
-<!-- <li class="fragment" data-fragment-index="0"> -->
-<!-- The initial site of ITD processing is considered to be the MSO. -->
-<!-- </li> -->
-
-<!-- <li class="fragment" data-fragment-index="1"> -->
-<!-- MSO are innervated by direct excitatory ipsi- anc contra-lateral inputs from spherical bushy cells and inhibitory inputs indirectly originating from the globular bushy cells. -->
-<!-- </li> -->
-
-<!-- # Models for ITD processing -->
-
-<!-- ## Neural density  -->
-
-<!-- - $\pi$-limit  -->
-<!-- - straightness-weighting (weighted-image model) -->
-
-<!-- ![](./figures/neural_density.png){width=80%} -->
-
-<!-- (McAlpine et al. 2001; Stern and Shear 1996) -->
-
-<!-- <!-- - Peaks of the cross-correlograms at –1.5 ms < peaks closer to 0 - central weighting. --> -->
-
-<!-- <!-- - Correct localization estimated from second processing level (in the inferior colliculus, gray curve on top of each panel). --> -->
-
-<!-- ## -->
-
-<!-- ![](./figures/neural_density_stern_shear_itd_0.5.png){width=80%} -->
-
-<!-- ## -->
-
-<!-- ![](./figures/neural_density_stern_shear_itd_1.0.png){width=80%} -->
-
-<!-- ## -->
-
-<!-- ![](./figures/neural_density_stern_shear_itd_1.5.png){width=80%} -->
-
-<!-- ## -->
-
-<!-- ![](./figures/neural_density_stern_shear_itd_2.0.png){width=80%} -->
-
-<!-- ## -->
-
-<!-- ![](./figures/neural_density_stern_shear_itd_2.5.png){width=80%} -->
-
-<!-- ## -->
-
-<!-- ![](./figures/neural_density_stern_shear_itd_3.0.png){width=80%} -->
-
-<!-- ## -->
-
-<!-- ![](./figures/neural_density_stern_shear_itd_3.5.png){width=80%} -->
-
-<!-- ## -->
-
-<!-- ![](./figures/neural_density_stern_shear_itd_4.0.png){width=80%} -->
-
-
-<!-- ## -->
-
-<!-- Thompson et al. (2006)  -->
-
-<!-- <img src="./figures/thompson_2006_2.png" width="80%"> -->
-
-<!-- - Inferior colliculus consistent with centrality. -->
-<!-- - Cortical responses to sounds with ITDs within the $\pi$-limit are in line with the predictions of both models.  -->
-<!-- - However, neural activation is bilateral for "long" ITDs, despite these being perceived as clearly lateralized -->
-<!-- - Long ITDs leads to higher activation in cortex than processing of short ITDs. -->
-
-
-<!-- ##  -->
-
-<!-- Kriegstein et al. (2008) -->
-
-<!-- <img src="./figures/kriegstein_2008_1.png" width="40%"> -->
-
-<!-- - human and animal Magnetoencephalography (MEG) recordings as well as computational models with ITD detectors restricted either to ±π or with their best ITDs well beyond ±π but with strong weighting to ITDs near zero - *“central-weighting”* agree with a limited range of ITD detectors (Salminen et al., 2018; Stern and Shear, 1996). -->
-
+- To assess the neurophysiological basis for envelope encoding of low frequency sounds to sounds with ITDs within and outside the ethological range.
+- To evaluate objective measurements of binaural processing using EEG and fNIRS. 
+- To infer the underlying mechanisms for ITD processing in human listeners.
 
 
 # Neurophysiological binaural processing in humans
@@ -324,15 +236,9 @@ Input to one ear  -------------------> output at the auditory nerve
  
 - fNIRs provides an estimation of oxygenated and de-oxygenated levels which is used as proxy measurement for brain activity.
 
+
 # Experiments
 
-## Aims
-
-The aims of this study are: 
-
-- To assess the neurophysiological basis for envelope encoding of low frequency sounds to sounds with ITDs within and outside the ethological range.
-- To evaluate objective measurements of binaural processing using EEG and fNIRS. 
-- To infer the underlying mechanisms for ITD processing in human listeners.
 
 ## EEG Experiments
 
@@ -355,14 +261,14 @@ Objective measures of binaural processing can be obtained by using stimuli where
 
 - Simuli consisted of narrow-bandpass noise (300 - 700 Hz) at 75 dB SPL
 
-##
+## Methods
 
 - By swithcing the "sound image" from left to right at 6.7 Hz, a strong steady-state response is evoked at that particular frequency
 
 - ITM-FRs are larger when the stimuli causes a strong lateralization percept.
 
 
-<ul class="fragment" data-fragment-index="1">
+<ul class="fragment" data-fragment-index="1" style="text-align: center">
 <video width="320" height="240" controls source src="./figures/example0.5_-0.5.mp4" type="video/mp4">
 </ul>
 
