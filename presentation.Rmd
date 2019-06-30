@@ -89,7 +89,7 @@ When listening to sounds, we rely on three mechanisms for both sound localizatio
 
 ![](./figures/itd_env_0_5.png)  ![](./figures/itd_env_2_0.png)
 
-Why ITDs? 
+### Why ITDs? {.fragment}
 
 >- Speech reception thresholds (SRTs) can improve up to 10 dB when sources are separated in space (Hawley et al., 2004).
 
@@ -98,11 +98,11 @@ Why ITDs?
 >- Binaural hearing abilities decrease with advancing age  (Ross, 2008; 2007, Vercammen et al. 2018). 
 
 
-What about long ITDs? 
+### What about long ITDs? {.fragment}
 
->- Longer ITD becomes relevant in reverberation and for integration of multiple sources
+>- Longer ITDs become relevant in reverberation and for integration of multiple sources
 
->- ITD in the envelope of common amplitude modulation may become the cue for broadband noise stimuli with long ITD (beyond the range for sound localization)
+>- ITDs in the envelope of common amplitude modulation may become the cue for broadband noise stimuli with long ITD (beyond the range for sound localization)
 
 >- Robust lateralization has been shown for long ITD of up to 20 ms (only possible below 1500 Hz; (Mossop and Culling, 1998).
 
@@ -183,20 +183,20 @@ What about long ITDs?
 <!-- Plomp, 1988; Wightman & Kistler, 1992). -->
 <!-- </li> -->
 
-# Autditory Pathway
+<!-- # Autditory Pathway -->
 
-##
+<!-- ## -->
 
-Input to one ear  -------------------> output at the auditory nerve
+<!-- Input to one ear  -------------------> output at the auditory nerve -->
 
-![](./figures/spectrogram_cheap.png){width=60%} ![](./figures/raster.png){width=35%}
+<!-- ![](./figures/spectrogram_cheap.png){width=60%} ![](./figures/raster.png){width=35%} -->
 
 
-## Auditory pathway
+<!-- ## Auditory pathway -->
 
-![](./figures/auditory_pathway.png){width=50%}
+<!-- ![](./figures/auditory_pathway.png){width=50%} -->
 
-(Amunts, K. et al. 2012)
+<!-- (Amunts, K. et al. 2012) -->
 
 
 ## Aims
