@@ -39,7 +39,7 @@ How do we recognize what one person is saying when others are speaking at the sa
 When everyone at a well-attended party talks at the same level, the speech of the attended talker at a distance of 0.7 m has a signal-to-noise ratio (SNR) of about 0 dB (the background is as intense as the target talker Plomp 1977). 
 This level is sufficient to give adequate intelligibility for listeners with normal hearing (Miller, 1947).
 
-![](./figures/cocktail_party_effect.png){width=50%}
+![](./figures/cocktail_party_effect.png){width=30%}
 
 ## Auditory scene analysis
 - A critial role of the auditory system is to parse the inputs from the left and right ears into auditory objects - auditory scene analysis. This is an essential role for survival, recognition, and communication.
@@ -85,12 +85,25 @@ When listening to sounds, we rely on three mechanisms for both sound localizatio
 
 ![](./figures/itd_ild_cartoon.png){width=60%}
 
-## Envelope ITDs
+## Temporal fine structure and envelope ITDs
 
-- 
+![](./figures/itd_env_0_5.png)  ![](./figures/itd_env_2_0.png)
 
-![](./figures/itd_env_0_5.png) ![](./figures/itd_env_2_0.png)
+> - Why ITDs? 
 
+> + Speech reception thresholds (SRTs) can improve up to 10 dB when sources are separated in space (Hawley et al., 2004).
+
+> + Binaural hearing improves tolerance reverberationg enviroments (Harris and Reitz, 1985)
+
+> + Binaural hearing abilities decrease with advancing age  (Ross, 2008; 2007, Vercammen et al. 2018). 
+
+> - What about long ITDs? 
+
+> + Longer ITD becomes relevant in reverberation and for integration of multiple sources
+
+> + ITD in the envelope of common amplitude modulation may become the cue for broadband noise stimuli with long ITD (beyond the range for sound localization)
+
+> + Robust lateralization has been shown for long ITD of up to 20 ms (only possible below 1500 Hz; (Mossop and Culling, 1998).
 
 
 
@@ -199,66 +212,66 @@ Input to one ear  -------------------> output at the auditory nerve
 <!-- LSO are innervated by direct excitatory ipsilateral inputs from spherical bushy cells and inhibitory inputs indirectly originating from the globular bushy cells. -->
 <!-- </li> -->
 
-## ITD pathway
+<!-- ## ITD pathway -->
 
-![](./figures/itd_pathway.svg){width=80%}
+<!-- ![](./figures/itd_pathway.svg){width=80%} -->
 
-(Grothe et al. 2010)
+<!-- (Grothe et al. 2010) -->
 
-<li class="fragment" data-fragment-index="0">
-The initial site of ITD processing is considered to be the MSO.
-</li>
+<!-- <li class="fragment" data-fragment-index="0"> -->
+<!-- The initial site of ITD processing is considered to be the MSO. -->
+<!-- </li> -->
 
-<li class="fragment" data-fragment-index="1">
-MSO are innervated by direct excitatory ipsi- anc contra-lateral inputs from spherical bushy cells and inhibitory inputs indirectly originating from the globular bushy cells.
-</li>
+<!-- <li class="fragment" data-fragment-index="1"> -->
+<!-- MSO are innervated by direct excitatory ipsi- anc contra-lateral inputs from spherical bushy cells and inhibitory inputs indirectly originating from the globular bushy cells. -->
+<!-- </li> -->
 
-# Models for ITD processing
+<!-- # Models for ITD processing -->
 
-## Neural density 
+<!-- ## Neural density  -->
 
-- $\pi$-limit 
-- straightness-weighting (weighted-image model)
+<!-- - $\pi$-limit  -->
+<!-- - straightness-weighting (weighted-image model) -->
 
-![](./figures/neural_density.png){width=80%}
+<!-- ![](./figures/neural_density.png){width=80%} -->
 
-(McAlpine et al. 2001; Stern and Shear 1996)
+<!-- (McAlpine et al. 2001; Stern and Shear 1996) -->
 
-<!-- - Peaks of the cross-correlograms at –1.5 ms < peaks closer to 0 - central weighting. -->
+<!-- <!-- - Peaks of the cross-correlograms at –1.5 ms < peaks closer to 0 - central weighting. --> -->
 
-<!-- - Correct localization estimated from second processing level (in the inferior colliculus, gray curve on top of each panel). -->
+<!-- <!-- - Correct localization estimated from second processing level (in the inferior colliculus, gray curve on top of each panel). --> -->
 
-##
+<!-- ## -->
 
-![](./figures/neural_density_stern_shear_itd_0.5.png){width=80%}
+<!-- ![](./figures/neural_density_stern_shear_itd_0.5.png){width=80%} -->
 
-##
+<!-- ## -->
 
-![](./figures/neural_density_stern_shear_itd_1.0.png){width=80%}
+<!-- ![](./figures/neural_density_stern_shear_itd_1.0.png){width=80%} -->
 
-##
+<!-- ## -->
 
-![](./figures/neural_density_stern_shear_itd_1.5.png){width=80%}
+<!-- ![](./figures/neural_density_stern_shear_itd_1.5.png){width=80%} -->
 
-##
+<!-- ## -->
 
-![](./figures/neural_density_stern_shear_itd_2.0.png){width=80%}
+<!-- ![](./figures/neural_density_stern_shear_itd_2.0.png){width=80%} -->
 
-##
+<!-- ## -->
 
-![](./figures/neural_density_stern_shear_itd_2.5.png){width=80%}
+<!-- ![](./figures/neural_density_stern_shear_itd_2.5.png){width=80%} -->
 
-##
+<!-- ## -->
 
-![](./figures/neural_density_stern_shear_itd_3.0.png){width=80%}
+<!-- ![](./figures/neural_density_stern_shear_itd_3.0.png){width=80%} -->
 
-##
+<!-- ## -->
 
-![](./figures/neural_density_stern_shear_itd_3.5.png){width=80%}
+<!-- ![](./figures/neural_density_stern_shear_itd_3.5.png){width=80%} -->
 
-##
+<!-- ## -->
 
-![](./figures/neural_density_stern_shear_itd_4.0.png){width=80%}
+<!-- ![](./figures/neural_density_stern_shear_itd_4.0.png){width=80%} -->
 
 
 <!-- ## -->
@@ -285,14 +298,52 @@ MSO are innervated by direct excitatory ipsi- anc contra-lateral inputs from sph
 
 # Neurophysiological binaural processing in humans
 
-## EEG Experiments
-<img src="./figures/eeg_setting.png" width="60%">
+## Electroencephalogram (EEG)
 
-<img src="./figures/software_biosemi_01_large.jpg" width="60%">
+![](./figures/Luck_2005_erp.png){width=50%}
+<img src="" width="60%">
+
+(From Luck 2005)
+
+## Functional near-infrared spectroscopy (fNIRS)
+
+
+- Neuroimaging technique for measuring brain activity.
+- It sses light to measures the change in concentration of haemoglobin in blood: a proxy measure of total local neural activity (similar to fMRI).
+
+
+
+![](./figures/fnirs_diagram.png){width=20%} ![](./figures/oxygenated_deoxygenated_blood.jpg){width=20%} ![](./figures/fNIRS.jpeg){width=20%} ![](./figures/tipical_fNIR_bold_response.png){width=20%}
+
+
+- The brain needs oxigen to function. Blood carries oxygen to the brain as fuel for your neurons. 
+ 
+- When a region of the brain requires more energy, additional oxygenated blood is pumped to the area.
+
+- As the brain uses oxygen, haemoglobin (carrying O2) gets de-oxygenated (it turns bluish). 
+ 
+- fNIRs provides an estimation of oxygenated and de-oxygenated levels which is used as proxy measurement for brain activity.
+
+# Experiments
+
+## Aims
+
+The aims of this study are: 
+
+- To assess the neurophysiological basis for envelope encoding of low frequency sounds to sounds with ITDs within and outside the ethological range.
+- To evaluate objective measurements of binaural processing using EEG and fNIRS. 
+- To infer the underlying mechanisms for ITD processing in human listeners.
+
+## EEG Experiments
+
+![](./figures/eeg_setting.png){width="60%"}
+
 
 - Binaural recordings were obtained from 10 NH participants.
 - 64 + 2 + 2 channels recording (amplifier: Biosemi ActiveTwo system).
 - Fs: 16 384 kHz / 24 bits (Lowpass: 3 kHz)
+- Denoising source separation (DSS)
+- Hottelling T2 test for individual analysis
  
 
 ## Methods
@@ -306,21 +357,14 @@ Objective measures of binaural processing can be obtained by using stimuli where
 
 ##
 
-<div class="column" style="float:left; width:50%; text-align: center">
-By swithcing the "sound image" from left to right at 6.7 Hz, a strong steady-state response is evoked at that particular frequency
-</li>
+- By swithcing the "sound image" from left to right at 6.7 Hz, a strong steady-state response is evoked at that particular frequency
 
-<li class="fragment" data-fragment-index="0">
-ITM-FRs are larger when the stimuli causes a strong lateralization percept.
-</li>
-</div>
+- ITM-FRs are larger when the stimuli causes a strong lateralization percept.
 
-<div class="column" style="float:right; width:50%; text-align: center">
+
 <ul class="fragment" data-fragment-index="1">
 <video width="320" height="240" controls source src="./figures/example0.5_-0.5.mp4" type="video/mp4">
 </ul>
-</div>
-
 
 
 <!-- ## Neural representation of asymmetric interaural time modulations (ITMs) -->
@@ -382,8 +426,8 @@ ITM-FRs are larger when the stimuli causes a strong lateralization percept.
 
 ## Neural representation of symmetric ITMs
 
-<img src="./figures/average-itds-coherence.png" width="50%">
-<img src="./figures/scalp_map_coherence.png" width="8.2%">
+![](./figures/average-itds-coherence.png){width=50%} ![](./figures/scalp_map_coherence.png){width=8.2%}
+
 
 
 
@@ -391,9 +435,9 @@ ITM-FRs are larger when the stimuli causes a strong lateralization percept.
 
 - ITMs: −0.5/ + 0.5 ms, −1.0/ + 1.0 ms, −1.5/ + 1.5 ms, −2.0/ + 2.0 ms, −2.5/ + 2.5 ms, −3.0/ + 3.0 ms, −4.0/ + 4.0 ms
 
-<img src="./figures/itm-fr-coherence-gfp.png" width="50%">
-<img src="./figures/itm-fr-coherence.png" width="40%">
+![](./figures/itm-fr-coherence-gfp.png){width=50%} ![](./figures/itm-fr-coherence.png){width=33%} 
 
+- Significant effect of the ITM (F(7,56.4) = 6.6, p < 0.001).
 
 
 ## FNIRs Experiments
@@ -404,8 +448,6 @@ ITM-FRs are larger when the stimuli causes a strong lateralization percept.
 - fNIRs were elicited by presenting 25 trials of 6 seconds separated by 15-30 s of silence.
 - 16 LED light sources and 16 avalanche photo-diode light detectors (NIRScout, NIRX, Germany)
 - Fs: 7 Hz
-
-![](./figures/fNIRS.jpeg){width=50%}
 
 
 
@@ -422,116 +464,93 @@ ITM-FRs are larger when the stimuli causes a strong lateralization percept.
 
 ![](./figures/robust_correlation_eeg_fnirs.png){width=50%}
 
+<!-- ## Results -->
+
+<!-- - The damping pattern may result by the trade-off between conflicting envelope and fine structure ITD.  -->
+<!-- Whilst the envelope has a consistent ITD across all conditions, the interaural phase difference (IPD) of the 500 Hz carrier does not. -->
+<!-- </div> -->
+
+<!-- <div class="column" style="float:left; width:60%; text-align: left"> -->
+<!-- <img class="fragment" data-fragment-index="1" src="./figures/itd_env_0_5.png" width="40%"> -->
+<!-- <img class="fragment" data-fragment-index="2" src="./figures/itd_env_1_0.png" width="40%"> -->
+
+<!-- <img class="fragment" data-fragment-index="3" src="./figures/itd_env_1_5.png" width="40%"> -->
+<!-- <img class="fragment" data-fragment-index="4" src="./figures/itd_env_2_0.png" width="40%"> -->
+<!-- </div> -->
 
 
-## Neural representation from a model
+<!-- <li class="fragment" data-fragment-index="1"> -->
+<!-- At −0.5/ + 0.5 ms (−90 ◦ / 90 ◦ IPD), the IPD of the centre frequency is consistent with the envelope ITD. -->
+<!-- </li> -->
 
-<div class="column" style="float:left; width:50%; text-align: right">
-<img src="./figures/ave_adapted_neural_activity_pi_limit_probe_-0.5_800.0_1400.0.png" width="100%">
-<br>
-Activation difference using Salminen  $\pi$-limit
+<!-- <li class="fragment" data-fragment-index="2"> -->
+<!-- At −1.0/ + 1.0 ms (−180 ◦ / 180 ◦ IPD), the IPD of the centre frequency is ambiguous. -->
+<!-- </li> -->
 
-<img src="./figures/ave_adapted_neural_activity_pi_limit_probe_-0.5_300.0_700.0.png" width="100%">
-<br>
-Activation difference using Salminen  $\pi$-limit
-</div>
+<!-- <li class="fragment" data-fragment-index="3"> -->
+<!-- At −1.5/ + 1.5 ms (−270 ◦ / 270 ◦ IPD), the IPD of the centre frequency is conflicting with the envelope ITD, i.e. the fine structure IPD leads in the right ear whilst the envelope ITD leads on the left ear. -->
+<!-- </li> -->
 
-
-<div class="column" style="float:right; width:50%; text-align: center">
-<img src="./figures/ave_adapted_neural_activity_pi_limit_undurraga_sym.png" width="100%">
-<br>
-Activation difference my data (rms) activity $\pi$-limit
-</div>
+<!-- <li class="fragment" data-fragment-index="4"> -->
+<!-- At −2.0/ + 2.0 ms (−360 ◦ / 360 ◦ IPD), there is not IPD in the fine structure at the centre frequency, and so no conflicting cues. -->
+<!-- </li> -->
 
 
-## Predicted average neural activity
+<!-- ## Neural representation from a model -->
 
-<div class="column" style="float:left; width:45%; text-align: right">
-<img src="./figures/rms_neural_activity_pi_limit.png" width="80%">
-<br>
-Average activity $\pi$-limit (stimuli leading on left)
-<br>
-<img src="./figures/rms_diff_neural_activity_pi_limit.png" width="80%">
-<br>
-Activation difference (rms) activity $\pi$-limit
-</div>
+<!-- <div class="column" style="float:left; width:50%; text-align: right"> -->
+<!-- <img src="./figures/ave_adapted_neural_activity_pi_limit_probe_-0.5_800.0_1400.0.png" width="100%"> -->
+<!-- <br> -->
+<!-- Activation difference using Salminen  $\pi$-limit -->
 
-
-<div class="column" style="float:right; width:45%; text-align: right">
-<img src="./figures/rms_neural_activity_stern_shear.png" width="80%">
-<br>
-Average activity central weighting (stimuli leading on left)
-<br>
-<img src="./figures/rms_diff_neural_activity_stern_shear.png" width="80%">
-<br>
-Activation difference (rms) central weighting
-</div>
-
-## Results
-
-<div class="column" style="float:left; width:40%; text-align: center">
-<img src="./figures/itm-fr-coherence-gfp.png" width="100%">
-
-- Significant effect of the ITM (F(7,56.4) = 6.6, p < 0.001).
-
-- The damping pattern may result by the trade-off between conflicting envelope and fine structure ITD. 
-Whilst the envelope has a consistent ITD across all conditions, the interaural phase difference (IPD) of the 500 Hz carrier does not.
-</div>
-
-<div class="column" style="float:left; width:60%; text-align: left">
-<img class="fragment" data-fragment-index="1" src="./figures/itd_env_0_5.png" width="40%">
-<img class="fragment" data-fragment-index="2" src="./figures/itd_env_1_0.png" width="40%">
-
-<img class="fragment" data-fragment-index="3" src="./figures/itd_env_1_5.png" width="40%">
-<img class="fragment" data-fragment-index="4" src="./figures/itd_env_2_0.png" width="40%">
-</div>
+<!-- <img src="./figures/ave_adapted_neural_activity_pi_limit_probe_-0.5_300.0_700.0.png" width="100%"> -->
+<!-- <br> -->
+<!-- Activation difference using Salminen  $\pi$-limit -->
+<!-- </div> -->
 
 
-<li class="fragment" data-fragment-index="1">
-At −0.5/ + 0.5 ms (−90 ◦ / 90 ◦ IPD), the IPD of the centre frequency is consistent with the envelope ITD.
-</li>
+<!-- <div class="column" style="float:right; width:50%; text-align: center"> -->
+<!-- <img src="./figures/ave_adapted_neural_activity_pi_limit_undurraga_sym.png" width="100%"> -->
+<!-- <br> -->
+<!-- Activation difference my data (rms) activity $\pi$-limit -->
+<!-- </div> -->
 
-<li class="fragment" data-fragment-index="2">
-At −1.0/ + 1.0 ms (−180 ◦ / 180 ◦ IPD), the IPD of the centre frequency is ambiguous.
-</li>
 
-<li class="fragment" data-fragment-index="3">
-At −1.5/ + 1.5 ms (−270 ◦ / 270 ◦ IPD), the IPD of the centre frequency is conflicting with the envelope ITD, i.e. the fine structure IPD leads in the right ear whilst the envelope ITD leads on the left ear.
-</li>
+<!-- ## Predicted average neural activity -->
 
-<li class="fragment" data-fragment-index="4">
-At −2.0/ + 2.0 ms (−360 ◦ / 360 ◦ IPD), there is not IPD in the fine structure at the centre frequency, and so no conflicting cues.
-</li>
+<!-- <div class="column" style="float:left; width:45%; text-align: right"> -->
+<!-- <img src="./figures/rms_neural_activity_pi_limit.png" width="80%"> -->
+<!-- <br> -->
+<!-- Average activity $\pi$-limit (stimuli leading on left) -->
+<!-- <br> -->
+<!-- <img src="./figures/rms_diff_neural_activity_pi_limit.png" width="80%"> -->
+<!-- <br> -->
+<!-- Activation difference (rms) activity $\pi$-limit -->
+<!-- </div> -->
 
-##
 
-<img class="fragment" data-fragment-index="1" src="./figures/instantaneous_itd.png" width="100%">
+<!-- <div class="column" style="float:right; width:45%; text-align: right"> -->
+<!-- <img src="./figures/rms_neural_activity_stern_shear.png" width="80%"> -->
+<!-- <br> -->
+<!-- Average activity central weighting (stimuli leading on left) -->
+<!-- <br> -->
+<!-- <img src="./figures/rms_diff_neural_activity_stern_shear.png" width="80%"> -->
+<!-- <br> -->
+<!-- Activation difference (rms) central weighting -->
+<!-- </div> -->
+
+
+<!-- ## -->
+
+<!-- <img class="fragment" data-fragment-index="1" src="./figures/instantaneous_itd.png" width="100%"> -->
 
 
 ## Conclusions 
 
-<li class="fragment" data-fragment-index="0" style="text-align: left">
-ITMs could be reliable recorded from all participants across conditions.
-</li>
-
-<li class="fragment" data-fragment-index="1" style="text-align: left">
-Asymmetric ITMs showed large and consistent responses with a damping pattern at ITMs with ITDs multiple of the central frequency of the noise.
-</li>
-
-<li class="fragment" data-fragment-index="2" style="text-align: left"> Similarly ITMs showed a decreasing damping function. 
-The damping function is consistent with conflicting cues between the envelope and the fine structure of the signal.
-</li>
-
-<li class="fragment" data-fragment-index="3" style="text-align: left">
-The adaptor paradigm in Experiment 2 could be also explained by conflictive processing between envelope and fine structure. 
-
-At −0.5/ + 0.5 ms (−90 ◦ / 90 ◦ IPD), the IPD of the centre frequency is consistent with the envelope ITD. 
-
-At −0.5/ + 1.5 ms (−90 ◦ / 270 ◦ IPD), the IPD of the centre frequency does not change, whilst the envelope ITD does. 
-
-At +0.5/ + 1.5 ms (90 ◦ / 270 ◦ IPD), the IPD of the centre frequency effectively changes between 90 ◦ and −90 ◦ , whilst the envelope ITD 
-is always leading on the right ear.
-</li>
+> - EEG responses to ITMs could be reliable recorded from all participants across conditions.
+> - fNIRs responses to ITMs are only clear at group level.
+> - Both, EEG and fNIRs show a similar ITMs damping function pattern to long ITDs. 
+> - The damping function may reflect the interaction between two neural mechanisms interacting (TFS and ENV ITDs)
 
 
 
@@ -540,9 +559,13 @@ is always leading on the right ear.
 - Australian Research Council [project number FL160100108]
 - Thanks to you for "listening"
 
-<img src="./figures/ahh.jpg" width="60%">
-<br>
-<img src="./figures/ahh_team.jpg" width="60%">
+Australian Research Council (FL160100108)
 
+Collaborators 
+
+![](./figures/robert_luke.jpg){width=20%}  ![](./figures/jessica_monagan.jpg){width=19.5%}
+
+
+![](./figures/David_McAlpine.png){width=40%}  
 
 <!-- ## References -->
